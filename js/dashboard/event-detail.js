@@ -25,10 +25,10 @@
 						{
 							label: "My First dataset",
 							data: [15, 40, 55, 40, 25, 35, 40, 50, 85, 40],
-							borderColor: 'rgba(254, 99, 78, 1)',
+							borderColor: 'rgba(207, 11, 11, 1)',
 							borderWidth: "0",
-							backgroundColor: 'rgba(254, 99, 78, 1)', 
-							hoverBackgroundColor: 'rgba(254, 99, 78, 1)'
+							backgroundColor: 'rgba(207, 11, 11, 1)', 
+							hoverBackgroundColor: 'rgba(207, 11, 11, 1)'
 						}
 					]
 				},
@@ -95,13 +95,13 @@
 					datasets: [{
 						label: "Sales Stats",
 						backgroundColor: ['rgba(19, 180, 151, 0)'],
-						borderColor: '#FE634E',
-						pointBackgroundColor: '#FE634E',
-						pointBorderColor: '#FE634E',
+						borderColor: '#CF0B0B',
+						pointBackgroundColor: '#CF0B0B',
+						pointBorderColor: '#CF0B0B',
 						borderWidth:6,
 						borderRadius:10,
-						pointHoverBackgroundColor: '#FE634E',
-						pointHoverBorderColor: '#FE634E',
+						pointHoverBackgroundColor: '#CF0B0B',
+						pointHoverBorderColor: '#CF0B0B',
 						
 						data: [5, 1, 5, 1, 7, 2, 6, 1]
 					}]
@@ -196,7 +196,7 @@
 		},
 		fill: {
           type: 'gradient',
-		  colors:'#FE634E',
+		  colors:'#CF0B0B',
           gradient: {
               shade: 'dark',
               shadeIntensity: 0.15,
@@ -208,7 +208,7 @@
         },
         stroke: {
 			lineCap: 'round',
-		  colors:'#FE634E'
+		  colors:'#CF0B0B'
         },
 		labels: [''],
 		};

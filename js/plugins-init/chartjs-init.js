@@ -25,9 +25,9 @@
 						{
 							label: "My First dataset",
 							data: [65, 59, 80, 81, 56, 55, 40],
-							borderColor: 'rgba(254, 99, 78, 1)',
+							borderColor: 'rgba(207, 11, 11, 1)',
 							borderWidth: "0",
-							backgroundColor: 'rgba(254, 99, 78, 1)'
+							backgroundColor: 'rgba(207, 11, 11, 1)'
 						}
 					]
 				},
@@ -56,8 +56,8 @@
 			const barChart_2 = document.getElementById("barChart_2").getContext('2d');
 			//generate gradient
 			const barChart_2gradientStroke = barChart_2.createLinearGradient(0, 0, 0, 250);
-			barChart_2gradientStroke.addColorStop(0, "rgba(254, 99, 78, 1)");
-			barChart_2gradientStroke.addColorStop(1, "rgba(254, 99, 78, 0.5)");
+			barChart_2gradientStroke.addColorStop(0, "rgba(207, 11, 11, 1)");
+			barChart_2gradientStroke.addColorStop(1, "rgba(207, 11, 11, 0.5)");
 
 			barChart_2.height = 100;
 
@@ -101,8 +101,8 @@
 			const barChart_3 = document.getElementById("barChart_3").getContext('2d');
 			//generate gradient
 			const barChart_3gradientStroke = barChart_3.createLinearGradient(50, 100, 50, 50);
-			barChart_3gradientStroke.addColorStop(0, "rgba(254, 99, 78, 1)");
-			barChart_3gradientStroke.addColorStop(1, "rgba(254, 99, 78, 0.5)");
+			barChart_3gradientStroke.addColorStop(0, "rgba(207, 11, 11, 1)");
+			barChart_3gradientStroke.addColorStop(1, "rgba(207, 11, 11, 0.5)");
 
 			const barChart_3gradientStroke2 = barChart_3.createLinearGradient(50, 100, 50, 50);
 			barChart_3gradientStroke2.addColorStop(0, "rgba(39, 188, 72, 1)");
@@ -227,10 +227,10 @@
 						{
 							label: "My First dataset",
 							data: [25, 20, 60, 41, 66, 45, 80],
-							borderColor: 'rgba(254, 99, 78, 1)',
+							borderColor: 'rgba(207, 11, 11, 1)',
 							borderWidth: "2",
 							backgroundColor: 'transparent',  
-							pointBackgroundColor: 'rgba(254, 99, 78, 1)'
+							pointBackgroundColor: 'rgba(207, 11, 11, 1)'
 						}
 					]
 				},
@@ -265,8 +265,8 @@
 			const lineChart_2 = document.getElementById("lineChart_2").getContext('2d');
 			//generate gradient
 			const lineChart_2gradientStroke = lineChart_2.createLinearGradient(500, 0, 100, 0);
-			lineChart_2gradientStroke.addColorStop(0, "rgba(254, 99, 78, 1)");
-			lineChart_2gradientStroke.addColorStop(1, "rgba(254, 99, 78, 0.5)");
+			lineChart_2gradientStroke.addColorStop(0, "rgba(207, 11, 11, 1)");
+			lineChart_2gradientStroke.addColorStop(1, "rgba(207, 11, 11, 0.5)");
 
 			//Chart.controllers.line.draw = function(){ };
 			
@@ -303,7 +303,7 @@
 							borderColor: lineChart_2gradientStroke,
 							borderWidth: "2",
 							backgroundColor: 'transparent', 
-							pointBackgroundColor: 'rgba(254, 99, 78, 0.5)'
+							pointBackgroundColor: 'rgba(207, 11, 11, 0.5)'
 						}
 					]
 				},
@@ -336,8 +336,8 @@
 			const lineChart_3 = document.getElementById("lineChart_3").getContext('2d');
 			//generate gradient
 			const lineChart_3gradientStroke1 = lineChart_3.createLinearGradient(500, 0, 100, 0);
-			lineChart_3gradientStroke1.addColorStop(0, "rgba(254, 99, 78, 1)");
-			lineChart_3gradientStroke1.addColorStop(1, "rgba(254, 99, 78, 0.5)");
+			lineChart_3gradientStroke1.addColorStop(0, "rgba(207, 11, 11, 1)");
+			lineChart_3gradientStroke1.addColorStop(1, "rgba(207, 11, 11, 0.5)");
 
 			const lineChart_3gradientStroke2 = lineChart_3.createLinearGradient(500, 0, 100, 0);
 			lineChart_3gradientStroke2.addColorStop(0, "rgba(255, 188, 17, 1)");
@@ -374,7 +374,7 @@
 							borderColor: lineChart_3gradientStroke1,
 							borderWidth: "2",
 							backgroundColor: 'transparent', 
-							pointBackgroundColor: 'rgba(254, 99, 78, 0.5)'
+							pointBackgroundColor: 'rgba(207, 11, 11, 0.5)'
 						}, {
 							label: "My First dataset",
 							data: [5, 20, 15, 41, 35, 65, 80],
@@ -500,7 +500,7 @@
 							data: [25, 20, 60, 41, 66, 45, 80],
 							borderColor: 'rgba(0, 0, 1128, .3)',
 							borderWidth: "1",
-							backgroundColor: 'rgba(254, 99, 78, .5)', 
+							backgroundColor: 'rgba(207, 11, 11, .5)', 
 							pointBackgroundColor: 'rgba(0, 0, 1128, .3)'
 						}
 					]
@@ -593,9 +593,9 @@
 						{
 							label: "My First dataset",
 							data: [25, 20, 60, 41, 66, 45, 80],
-							borderColor: 'rgb(254, 99, 78)',
+							borderColor: 'rgb(207, 11, 11)',
 							borderWidth: "1",
-							backgroundColor: 'rgba(254, 99, 78, .5)'
+							backgroundColor: 'rgba(207, 11, 11, .5)'
 						}, 
 						{
 							label: "My First dataset",
@@ -692,15 +692,15 @@
 						data: [45, 25, 20, 10],
 						borderWidth: 0, 
 						backgroundColor: [
-							"rgba(254, 99, 78, .9)",
-							"rgba(254, 99, 78, .7)",
-							"rgba(254, 99, 78, .5)",
+							"rgba(207, 11, 11, .9)",
+							"rgba(207, 11, 11, .7)",
+							"rgba(207, 11, 11, .5)",
 							"rgba(0,0,0,0.07)"
 						],
 						hoverBackgroundColor: [
-							"rgba(254, 99, 78, .9)",
-							"rgba(254, 99, 78, .7)",
-							"rgba(254, 99, 78, .5)",
+							"rgba(207, 11, 11, .9)",
+							"rgba(207, 11, 11, .7)",
+							"rgba(207, 11, 11, .5)",
 							"rgba(0,0,0,0.07)"
 						]
 
@@ -736,12 +736,12 @@
 						borderWidth: 3, 
 						borderColor: "rgba(255,255,255,1)",
 						backgroundColor: [
-							"rgba(254, 99, 78, 1)",
+							"rgba(207, 11, 11, 1)",
 							"rgba(39, 188, 72, 1)",
 							"rgba(139, 199, 64, 1)"
 						],
 						hoverBackgroundColor: [
-							"rgba(254, 99, 78, 0.9)",
+							"rgba(207, 11, 11, 0.9)",
 							"rgba(39, 188, 72, .9)",
 							"rgba(139, 199, 64, .9)"
 						]
@@ -777,7 +777,7 @@
 						data: [15, 18, 9, 6, 19],
 						borderWidth: 0, 
 						backgroundColor: [
-							"rgba(254, 99, 78, 1)",
+							"rgba(207, 11, 11, 1)",
 							"rgba(39, 188, 72, 1)",
 							"rgba(139, 199, 64, 1)",
 							"rgba(255, 46, 46, 1)",

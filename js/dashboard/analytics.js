@@ -48,7 +48,7 @@
 				},
 				
 			},
-			colors:[ '#707070', '#FE634E'],
+			colors:[ '#707070', '#CF0B0B'],
 			xaxis: {
 				show: true,
 				axisBorder: {
@@ -146,7 +146,7 @@
 		stroke:{
 			lineCap: 'round'
 		},
-		colors:['#FE634E','#707070', '#BFBFBF'],
+		colors:['#CF0B0B','#707070', '#BFBFBF'],
 		series: [65, 55, 45],
 		labels: ['Ticket A', 'Ticket B', 'Ticket C'],
 			
@@ -182,7 +182,7 @@
 			labels: ['VIP', 'Reguler', 'Exclusive', 'Economic'],
 			fill: {
 				opacity: 1,
-				colors: ['#707070', '#BFBFBF', '#F3F3F3', '#FE634E']
+				colors: ['#707070', '#BFBFBF', '#F3F3F3', '#CF0B0B']
 			},
 			stroke: {
 				width: 0,
@@ -219,8 +219,8 @@
 			const areaChart_2 = document.getElementById("areaChart_2").getContext('2d');
 			//generate gradient
 			const areaChart_2gradientStroke = areaChart_2.createLinearGradient(0, 1, 0, 500);
-			areaChart_2gradientStroke.addColorStop(0, "rgba(254, 99, 78, 0.0)");
-			areaChart_2gradientStroke.addColorStop(1, "rgba(254, 99, 78, 0)");
+			areaChart_2gradientStroke.addColorStop(0, "rgba(207, 11, 11, 0.0)");
+			areaChart_2gradientStroke.addColorStop(1, "rgba(207, 11, 11, 0)");
 			
 			areaChart_2.height = 100;
 
@@ -233,7 +233,7 @@
 						{
 							label: "My First dataset",
 							data: [80, 50, 70, 40, 60, 30, 50],
-							borderColor: "#FE634E",
+							borderColor: "#CF0B0B",
 							borderWidth: "4",
 							backgroundColor: areaChart_2gradientStroke
 						}
